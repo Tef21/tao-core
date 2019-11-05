@@ -60,6 +60,7 @@ class tao_models_classes_UserService extends ConfigurableService implements core
 
     /**
      * @deprecated
+     * @return self
      */
     public static function singleton()
     {
